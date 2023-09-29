@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "privacy_folies",
+  "info": {
+    "singularName": "privacy-folie",
+    "pluralName": "privacy-folies",
+    "displayName": "privacy-folie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

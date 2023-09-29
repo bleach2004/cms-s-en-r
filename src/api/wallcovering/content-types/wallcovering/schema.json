@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wallcoverings",
+  "info": {
+    "singularName": "wallcovering",
+    "pluralName": "wallcoverings",
+    "displayName": "wallcovering",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spandoeken_en_vlaggens",
+  "info": {
+    "singularName": "spandoeken-en-vlaggen",
+    "pluralName": "spandoeken-en-vlaggens",
+    "displayName": "spandoeken-en-vlaggen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titell": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

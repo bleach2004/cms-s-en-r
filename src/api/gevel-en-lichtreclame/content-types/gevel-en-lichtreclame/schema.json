@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gevel_en_lichtreclames",
+  "info": {
+    "singularName": "gevel-en-lichtreclame",
+    "pluralName": "gevel-en-lichtreclames",
+    "displayName": "gevel-en-lichtreclame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

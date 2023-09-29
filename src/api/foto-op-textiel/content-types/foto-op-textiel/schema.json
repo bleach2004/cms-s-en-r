@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foto_op_textiels",
+  "info": {
+    "singularName": "foto-op-textiel",
+    "pluralName": "foto-op-textiels",
+    "displayName": "foto-op-textiel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

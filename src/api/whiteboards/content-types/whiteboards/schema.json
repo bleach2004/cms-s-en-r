@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whiteboardss",
+  "info": {
+    "singularName": "whiteboards",
+    "pluralName": "whiteboardss",
+    "displayName": "whiteboards",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

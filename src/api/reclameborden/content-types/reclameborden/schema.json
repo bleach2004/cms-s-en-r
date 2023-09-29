@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reclamebordens",
+  "info": {
+    "singularName": "reclameborden",
+    "pluralName": "reclamebordens",
+    "displayName": "reclameborden",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

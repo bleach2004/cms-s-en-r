@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schilderij_printss",
+  "info": {
+    "singularName": "schilderij-prints",
+    "pluralName": "schilderij-printss",
+    "displayName": "schilderij-prints",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Afbeeldingen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Beschrijving": {
+      "type": "richtext"
+    }
+  }
+}

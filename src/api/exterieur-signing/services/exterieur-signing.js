@@ -1,0 +1,9 @@
+'use strict';
+
+/**
+ * exterieur-signing service
+ */
+
+const { createCoreService } = require('@strapi/strapi').factories;
+
+module.exports = createCoreService('api::exterieur-signing.exterieur-signing');
